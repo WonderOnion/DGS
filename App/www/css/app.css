@@ -1,0 +1,332 @@
+/*
+ * Please see the included README.md file for license terms and conditions.
+ */
+
+
+/* This file is completely optional and not required. */
+/* Note the reference that includes it in the index.html file. */
+
+
+/* Disable certain interactions on touch devices */
+/* SOURCE: https://github.com/ftlabs/fastclick/blob/master/examples/input.html */
+/* LICENSE: https://github.com/ftlabs/fastclick/blob/master/LICENSE */
+body {
+    -webkit-touch-callout: none ;
+    -webkit-text-size-adjust: none ; -ms-text-size-adjust: none ;
+    -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ;
+    -webkit-highlight: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+    -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+html {
+    -ms-touch-action: pan-x ;
+    height: 100%;
+}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+body {
+    -ms-touch-action: pan-y ;
+    -ms-content-zooming: none ;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* allow copy-paste */
+input, textarea  {
+    -webkit-user-select: text ; -moz-user-select: text ; -ms-user-select: text ; user-select: text ;
+}
+
+body {
+    /* margin: 0.5rem ; */
+    background: white ;
+    color: black;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.align-center {
+    text-align: center ;
+}
+
+div {
+    font-size: 18px;
+}
+
+div.container {
+    height: 100%;
+}
+
+div.title {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* MENU BAR */
+ul.menu {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+li.menulist {
+    float: left;
+}
+
+.menulogin {
+    background-color: white;
+}
+
+/* space */
+
+div.space10 {
+	height: 10px;
+}
+
+div.space20 {
+	height: 20px;
+}
+
+div.space50 {
+	height: 50px; 
+}
+
+div.lineanera {
+    height: 2px;
+    background-color: #dedee0;
+    width: 100%;
+}
+
+div.lineatop {
+    width: 92%;
+    height: 2px;
+    
+    background: red; /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(left,#24bdff,#0094d2,#24bdff);
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(left,#24bdff,#0094d2,#24bdff);
+    /* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient(left,#24bdff,#0094d2,#24bdff);
+    /* Standard syntax */
+    background: linear-gradient(to right,#24bdff,#0094d2,#24bdff); 
+}
+
+/* BUTTON */
+a.button {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonLog {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+/* INPUT */
+.inputlogin {
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+/* BACKGROUND */
+.BGimgLogReg {
+    /*background-image: url(../images/bgrepeatindex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; */
+}
+
+/* CONATINER MESS */
+div.containerMsg {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+#barraButtomBot {
+    position: fixed;
+    z-index: 100;
+    bottom: 0px;
+    width:100%;
+    vertical-align: bottom;
+    background-color: white;
+}
+
+ul.botUlButtom {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+li.botLiButtom {
+    float: right;
+}
+
+/* BUTTON BAR BOT SIZE */
+img.botBarButtonSize1 {
+    width: 90%;
+    height: auto;
+}
+
+img.botBarButtonSize2 {
+    width: 70%;
+    height: auto;
+}
+
+img.botBarButtonSize3 {
+    width: 60%;
+    height: auto;
+}
+
+/* IMG container style (Es. Home)*/
+div.containerImg {
+    background-color: #808080;
+    width: 90%;
+    box-shadow: 5px -5px 5px #404040;
+    padding: 10px;
+}
+
+ul.ulContainerImgViwsValue {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.liContainerImgViwsValue {
+    float: left;
+}
+
+img.imgValueViwsIcons {
+    height: 30px;
+    width: auto;
+    padding: 2px;
+}
+/* text align */
+.textLeft {
+    text-align: left;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+/* text */
+div.normaltext {
+    font-size: 18px;
+}
+
+div.minitext {
+    font-size: 15px;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+/* width */
+.width50per {
+    width: 50%;
+}
+
+.width100per {
+    width: 100%;
+}
+
+.width20per {
+    width: 20%;
+}
+
+.width60per {
+    width: 60%;
+}
+
+.width50per {
+    width: 50%;
+}
+
+.width30per {
+    width: 30%;
+}
+
+/* pos ablosute float */
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+
+/* CONTAINER CHAT */
+div.conatinerChat {
+    padding: 5px;
+}
+
+/* BOX MESSAGES */
+img.imgBoxMsgStatusConv {
+    width: 40px;
+    height: 40px;
+}
+
+div.divPositionTextMsgBox {
+    position: relative;
+    top: 10px;
+}
+
+/* STORE */
+div.containerStore {
+    line-height: 50px;
+}
+
+div.containerStorePrice {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+}
+
+div.lineagialla {
+    width: 100%;
+    background-color: yellow;
+    height: 1px;
+}
+
+img.storeMoneyIcon {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+
+/* GLOBAL BUTTON BACK */
+div.buttonBlackTopLeft {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}

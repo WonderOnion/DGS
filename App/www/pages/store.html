@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+        <style>
+            /* following two viewport lines are equivalent to meta viewport statement above, and is needed for Windows */
+            /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+            @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+            @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+            /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
+        </style>
+        <link rel="stylesheet" href="../css/app.css">
+
+        <script src="../cordova.js"></script>
+
+        <script src="../js/app.js"></script>
+        <script src="../js/init-app.js"></script>
+        <script src="../xdk/init-dev.js"></script>
+        <script src="../js/jquery.js"></script>
+    </head>
+
+
+    <body>
+        <!--<div onclick="logout();">LOGOUT</div>-->
+        <div align="center">
+            
+            <div align="center">
+                <div style="">
+                    <div class="space20"></div>
+                    <div class="title">Value Store</div>
+                    <div class="space20"></div>
+                    <div class="lineatop"></div>
+                </div>
+                <div class="space20"></div>
+            </div>
+            
+            <div style="width:80%; text-align: left;">
+                <div>Your credit: 0</div>
+                <div>Premium: no</div>
+            </div>
+            
+            <div class="space20"></div>
+            
+            <div>
+                <div>Buy credits</div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="width100per">
+                    <div class="containerStore">
+                        <ul class="ulContainerImgViwsValue">
+                            <li align="left" class="liContainerImgViwsValue width20per"><img src="../images/icon/icon_stpre_Credits1.png" class="storeMoneyIcon" ></li>
+                            <li class="liContainerImgViwsValue width50per">
+                            10 credits
+                            </li>
+                            <li class="liContainerImgViwsValue width30per">
+                                <div class="containerStorePrice width100per">
+                                    1 &euro;
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="width100per">
+                    <div class="containerStore">
+                        <ul class="ulContainerImgViwsValue">
+                            <li align="left" class="liContainerImgViwsValue width20per"><img src="../images/icon/icon_stpre_Credits2.png" class="storeMoneyIcon" ></li>
+                            <li class="liContainerImgViwsValue width50per">
+                            55 credits
+                            </li>
+                            <li class="liContainerImgViwsValue width30per">
+                                <div class="containerStorePrice width100per">
+                                    5 &euro;
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="width100per">
+                    <div class="containerStore">
+                        <ul class="ulContainerImgViwsValue">
+                            <li align="left" class="liContainerImgViwsValue width20per"><img src="../images/icon/icon_stpre_Credits3.png" class="storeMoneyIcon" ></li>
+                            <li class="liContainerImgViwsValue width50per">
+                            110 credits
+                            </li>
+                            <li class="liContainerImgViwsValue width30per">
+                                <div class="containerStorePrice width100per">
+                                    10 &euro;
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="width100per">
+                    <div class="containerStore">
+                        <ul class="ulContainerImgViwsValue">
+                            <li align="left" class="liContainerImgViwsValue width20per"><img src="../images/icon/icon_stpre_Credits4.png" class="storeMoneyIcon" ></li>
+                            <li class="liContainerImgViwsValue width50per">
+                            240 credits
+                            </li>
+                            <li class="liContainerImgViwsValue width30per">
+                                <div class="containerStorePrice width100per">
+                                    20 &euro;
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="width100per">
+                    <div class="containerStore">
+                        <ul class="ulContainerImgViwsValue">
+                            <li align="left" class="liContainerImgViwsValue width20per"><img src="../images/icon/icon_stpre_Credits5.png" class="storeMoneyIcon" ></li>
+                            <li class="liContainerImgViwsValue width50per">
+                            700 credits
+                            </li>
+                            <li class="liContainerImgViwsValue width30per">
+                                <div class="containerStorePrice width100per">
+                                    50 &euro;
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="width100per">
+                    <div class="containerStore">
+                        <ul class="ulContainerImgViwsValue">
+                            <li align="left" class="liContainerImgViwsValue width20per"><img src="../images/icon/icon_stpre_Credits6.png" class="storeMoneyIcon" ></li>
+                            <li class="liContainerImgViwsValue width50per">
+                            1500 credits
+                            </li>
+                            <li class="liContainerImgViwsValue width30per">
+                                <div class="containerStorePrice width100per">
+                                    100 &euro;
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="space50"></div>
+            </div>
+            
+            <div>
+                <div>Buy premium</div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="width100per">
+                    <div class="containerStore">
+                        <ul class="ulContainerImgViwsValue">
+                            <li align="left" class="liContainerImgViwsValue width20per"><img src="../images/icon/icon_stpre_Premium1.png" class="storeMoneyIcon" ></li>
+                            <li class="liContainerImgViwsValue width50per">
+                            1 month
+                            </li>
+                            <li class="liContainerImgViwsValue width30per">
+                                <div class="containerStorePrice width100per">
+                                    100 Credits
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="width100per">
+                    <div class="containerStore">
+                        <ul class="ulContainerImgViwsValue">
+                            <li align="left" class="liContainerImgViwsValue width20per"><img src="../images/icon/icon_stpre_Premium2.png" class="storeMoneyIcon" ></li>
+                            <li class="liContainerImgViwsValue width50per">
+                            3 month
+                            </li>
+                            <li class="liContainerImgViwsValue width30per">
+                                <div class="containerStorePrice width100per">
+                                    300 Credits
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="width100per">
+                    <div class="containerStore">
+                        <ul class="ulContainerImgViwsValue">
+                            <li align="left" class="liContainerImgViwsValue width20per"><img src="../images/icon/icon_stpre_Premium3.png" class="storeMoneyIcon" ></li>
+                            <li class="liContainerImgViwsValue width50per">
+                            6 month
+                            </li>
+                            <li class="liContainerImgViwsValue width30per">
+                                <div class="containerStorePrice width100per">
+                                    600 Credits
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="lineagialla"></div>
+                
+                <div class="space20"></div>
+            </div>
+            
+            <div>
+                
+                
+                
+            </div>
+            
+            <!-- button torna indietro -->
+            <div>
+                <div class="width20per buttonBlackTopLeft">
+                    <a href="home.html"><img src="../images/Button/backButton.png" class="botBarButtonSize2"/></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
